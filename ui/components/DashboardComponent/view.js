@@ -9,12 +9,7 @@ import GetNodeIcon from '../configuratorComponents/MeshModel/NodeIcon';
 import { JsonParse } from '../../utils/utils';
 
 const View = (props) => {
-  const {
-    // type,
-    setView,
-    resource,
-    classes,
-  } = props;
+  const { setView, resource, classes } = props;
 
   function RenderDynamicTable(key, value) {
     const allKeys = value.reduce((keys, obj) => {
